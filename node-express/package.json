@@ -1,0 +1,27 @@
+{
+  "name": "olark-webhook-base",
+  "version": "0.0.1",
+  "description": "Olark Webhook starter kit",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.15.2",
+    "body-parser": "1.17.1",
+    "request": "2.81.0"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "repository": {
+    "url": "https://github.com/olark/webhook-examples"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "olark"
+  ]
+}
+
