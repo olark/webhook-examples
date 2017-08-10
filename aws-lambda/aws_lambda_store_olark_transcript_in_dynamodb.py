@@ -27,7 +27,7 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': '200',
-        # the IntegrationUrl here will be sent to operators if they
+        # the integrationUrl here will be sent to operators if they
         # used !trigger, !case or !lead
         'body': json.dumps({'integrationUrl': 'https://www.olark.com'}),
         'headers': {
